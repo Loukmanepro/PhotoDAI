@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محرر الصور الذكي من OPTINEX</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.1/fabric.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>محرر الصور الذكي من OPTINEX</h1>
+    </header>
+
+    <div id="canvas"></div>
+
+    <div class="button-row">
+        <button id="upload-btn" class="button">اختيار صورة</button>
+        <button id="undo-btn" class="button">خطوة إلى الخلف</button>
+        <button id="redo-btn" class="button">خطوة إلى الأمام</button>
+        <button id="zoom-in-btn" class="button">تكبير الصورة</button>
+        <button id="zoom-out-btn" class="button">تصغير الصورة</button>
+    </div>
+
+    <div class="button-row">
+        <button id="remove-bg-btn" class="button">إزالة الخلفية الذكي</button>
+        <button id="enhance-quality-btn" class="button">تحسين الجودة الذكي</button>
+        <button id="change-style-btn" class="button">تغيير نمط الصورة</button>
+        <button id="save-btn" class="button">حفظ</button>
+        <button id="pro-btn" class="button">PRO</button>
+    </div>
+
+    <div id="style-options" class="hidden">
+        <button id="anime-style" class="button">أنمي</button>
+        <button id="cartoon-style" class="button">كرتون</button>
+        <button id="drawing-style" class="button">رسم</button>
+        <button id="three-d-style" class="button">3D</button>
+    </div>
+
+    <footer>
+        <p>By Loukmane Hadj Said</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
